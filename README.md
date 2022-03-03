@@ -28,8 +28,8 @@ That process is shown in the notebook [/source/remote-notebooks/magic-2-an-expla
 
 ## Neural network approach
 Two different neural networks were trained on the task and then fine-tuned to deliver good results. A ResNet18 and an EfficientNet.
-The corresponding notebooks can be found in [/source/remote-notebooks/](https://github.com/volleyfreak/SETI/tree/main/source/remote-notebooks)
-Their architectures can be viewed in [/net architectures](https://github.com/volleyfreak/SETI/tree/main/net%20architectures).
+The corresponding notebooks can be found in [/source/remote-notebooks/](https://github.com/volleyfreak/SETI/tree/main/source/remote-notebooks). 
+Their architectures can be viewed in [/net architectures/](https://github.com/volleyfreak/SETI/tree/main/net%20architectures).
 
 ## Results
 ResNet delievered poor results which were not better than a no skill model..
