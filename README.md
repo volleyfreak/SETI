@@ -16,7 +16,7 @@ The challenge was taken from: https://www.kaggle.com/c/seti-breakthrough-listen.
 <img src="https://raw.githubusercontent.com/volleyfreak/SETI/main/screenshots/Sample%200029a35de92941d%20%2B%20Boxes.png" alt="Your image title" width="500"/> </br>
 
 Different approaches were tried out to reliably increase the SNR of alien signals (red boxes) in noisy images.
-Results  can be found in [/source/conservative-approach](https://github.com/volleyfreak/SETI/tree/main/source/conservative-approach). The most promising preprocessing step: Derivation images was also applied on the whole dataset. But the results were not useful as input for a neural networks.
+Results  can be found in [/source/conservative-approach/](https://github.com/volleyfreak/SETI/tree/main/source/conservative-approach). The most promising preprocessing step: Derivation images was also applied on the whole dataset. But the results were not useful as input for a neural networks.
 
 ### Finding clusters
 If the right preprocessing steps were applied it is possible to automatically detect clusters in images with good SNR. That algorithm is implemented in [/source/conservative-approach/derivatives+cluster.ipynb](https://github.com/volleyfreak/SETI/blob/main/source/conservative-approach/derivatives%2Bcluster.ipynb)
