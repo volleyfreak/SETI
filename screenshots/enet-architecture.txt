@@ -1,0 +1,339 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1          [-1, 3, 277, 260]              81
+         ZeroPad2d-2          [-1, 3, 278, 261]               0
+Conv2dStaticSamePadding-3         [-1, 32, 138, 130]             864
+       BatchNorm2d-4         [-1, 32, 138, 130]              64
+         ZeroPad2d-5         [-1, 32, 140, 132]               0
+Conv2dStaticSamePadding-6         [-1, 32, 138, 130]             288
+       BatchNorm2d-7         [-1, 32, 138, 130]              64
+          Identity-8             [-1, 32, 1, 1]               0
+Conv2dStaticSamePadding-9              [-1, 8, 1, 1]             264
+         Identity-10              [-1, 8, 1, 1]               0
+Conv2dStaticSamePadding-11             [-1, 32, 1, 1]             288
+         Identity-12         [-1, 32, 138, 130]               0
+Conv2dStaticSamePadding-13         [-1, 16, 138, 130]             512
+      BatchNorm2d-14         [-1, 16, 138, 130]              32
+      MBConvBlock-15         [-1, 16, 138, 130]               0
+        ZeroPad2d-16         [-1, 16, 140, 132]               0
+Conv2dStaticSamePadding-17         [-1, 16, 138, 130]             144
+      BatchNorm2d-18         [-1, 16, 138, 130]              32
+         Identity-19             [-1, 16, 1, 1]               0
+Conv2dStaticSamePadding-20              [-1, 4, 1, 1]              68
+         Identity-21              [-1, 4, 1, 1]               0
+Conv2dStaticSamePadding-22             [-1, 16, 1, 1]              80
+         Identity-23         [-1, 16, 138, 130]               0
+Conv2dStaticSamePadding-24         [-1, 16, 138, 130]             256
+      BatchNorm2d-25         [-1, 16, 138, 130]              32
+      MBConvBlock-26         [-1, 16, 138, 130]               0
+         Identity-27         [-1, 16, 138, 130]               0
+Conv2dStaticSamePadding-28         [-1, 96, 138, 130]           1,536
+      BatchNorm2d-29         [-1, 96, 138, 130]             192
+        ZeroPad2d-30         [-1, 96, 139, 131]               0
+Conv2dStaticSamePadding-31           [-1, 96, 69, 65]             864
+      BatchNorm2d-32           [-1, 96, 69, 65]             192
+         Identity-33             [-1, 96, 1, 1]               0
+Conv2dStaticSamePadding-34              [-1, 4, 1, 1]             388
+         Identity-35              [-1, 4, 1, 1]               0
+Conv2dStaticSamePadding-36             [-1, 96, 1, 1]             480
+         Identity-37           [-1, 96, 69, 65]               0
+Conv2dStaticSamePadding-38           [-1, 24, 69, 65]           2,304
+      BatchNorm2d-39           [-1, 24, 69, 65]              48
+      MBConvBlock-40           [-1, 24, 69, 65]               0
+         Identity-41           [-1, 24, 69, 65]               0
+Conv2dStaticSamePadding-42          [-1, 144, 69, 65]           3,456
+      BatchNorm2d-43          [-1, 144, 69, 65]             288
+        ZeroPad2d-44          [-1, 144, 71, 67]               0
+Conv2dStaticSamePadding-45          [-1, 144, 69, 65]           1,296
+      BatchNorm2d-46          [-1, 144, 69, 65]             288
+         Identity-47            [-1, 144, 1, 1]               0
+Conv2dStaticSamePadding-48              [-1, 6, 1, 1]             870
+         Identity-49              [-1, 6, 1, 1]               0
+Conv2dStaticSamePadding-50            [-1, 144, 1, 1]           1,008
+         Identity-51          [-1, 144, 69, 65]               0
+Conv2dStaticSamePadding-52           [-1, 24, 69, 65]           3,456
+      BatchNorm2d-53           [-1, 24, 69, 65]              48
+      MBConvBlock-54           [-1, 24, 69, 65]               0
+         Identity-55           [-1, 24, 69, 65]               0
+Conv2dStaticSamePadding-56          [-1, 144, 69, 65]           3,456
+      BatchNorm2d-57          [-1, 144, 69, 65]             288
+        ZeroPad2d-58          [-1, 144, 71, 67]               0
+Conv2dStaticSamePadding-59          [-1, 144, 69, 65]           1,296
+      BatchNorm2d-60          [-1, 144, 69, 65]             288
+         Identity-61            [-1, 144, 1, 1]               0
+Conv2dStaticSamePadding-62              [-1, 6, 1, 1]             870
+         Identity-63              [-1, 6, 1, 1]               0
+Conv2dStaticSamePadding-64            [-1, 144, 1, 1]           1,008
+         Identity-65          [-1, 144, 69, 65]               0
+Conv2dStaticSamePadding-66           [-1, 24, 69, 65]           3,456
+      BatchNorm2d-67           [-1, 24, 69, 65]              48
+      MBConvBlock-68           [-1, 24, 69, 65]               0
+         Identity-69           [-1, 24, 69, 65]               0
+Conv2dStaticSamePadding-70          [-1, 144, 69, 65]           3,456
+      BatchNorm2d-71          [-1, 144, 69, 65]             288
+        ZeroPad2d-72          [-1, 144, 72, 68]               0
+Conv2dStaticSamePadding-73          [-1, 144, 34, 32]           3,600
+      BatchNorm2d-74          [-1, 144, 34, 32]             288
+         Identity-75            [-1, 144, 1, 1]               0
+Conv2dStaticSamePadding-76              [-1, 6, 1, 1]             870
+         Identity-77              [-1, 6, 1, 1]               0
+Conv2dStaticSamePadding-78            [-1, 144, 1, 1]           1,008
+         Identity-79          [-1, 144, 34, 32]               0
+Conv2dStaticSamePadding-80           [-1, 40, 34, 32]           5,760
+      BatchNorm2d-81           [-1, 40, 34, 32]              80
+      MBConvBlock-82           [-1, 40, 34, 32]               0
+         Identity-83           [-1, 40, 34, 32]               0
+Conv2dStaticSamePadding-84          [-1, 240, 34, 32]           9,600
+      BatchNorm2d-85          [-1, 240, 34, 32]             480
+        ZeroPad2d-86          [-1, 240, 38, 36]               0
+Conv2dStaticSamePadding-87          [-1, 240, 34, 32]           6,000
+      BatchNorm2d-88          [-1, 240, 34, 32]             480
+         Identity-89            [-1, 240, 1, 1]               0
+Conv2dStaticSamePadding-90             [-1, 10, 1, 1]           2,410
+         Identity-91             [-1, 10, 1, 1]               0
+Conv2dStaticSamePadding-92            [-1, 240, 1, 1]           2,640
+         Identity-93          [-1, 240, 34, 32]               0
+Conv2dStaticSamePadding-94           [-1, 40, 34, 32]           9,600
+      BatchNorm2d-95           [-1, 40, 34, 32]              80
+      MBConvBlock-96           [-1, 40, 34, 32]               0
+         Identity-97           [-1, 40, 34, 32]               0
+Conv2dStaticSamePadding-98          [-1, 240, 34, 32]           9,600
+      BatchNorm2d-99          [-1, 240, 34, 32]             480
+       ZeroPad2d-100          [-1, 240, 38, 36]               0
+Conv2dStaticSamePadding-101          [-1, 240, 34, 32]           6,000
+     BatchNorm2d-102          [-1, 240, 34, 32]             480
+        Identity-103            [-1, 240, 1, 1]               0
+Conv2dStaticSamePadding-104             [-1, 10, 1, 1]           2,410
+        Identity-105             [-1, 10, 1, 1]               0
+Conv2dStaticSamePadding-106            [-1, 240, 1, 1]           2,640
+        Identity-107          [-1, 240, 34, 32]               0
+Conv2dStaticSamePadding-108           [-1, 40, 34, 32]           9,600
+     BatchNorm2d-109           [-1, 40, 34, 32]              80
+     MBConvBlock-110           [-1, 40, 34, 32]               0
+        Identity-111           [-1, 40, 34, 32]               0
+Conv2dStaticSamePadding-112          [-1, 240, 34, 32]           9,600
+     BatchNorm2d-113          [-1, 240, 34, 32]             480
+       ZeroPad2d-114          [-1, 240, 35, 33]               0
+Conv2dStaticSamePadding-115          [-1, 240, 17, 16]           2,160
+     BatchNorm2d-116          [-1, 240, 17, 16]             480
+        Identity-117            [-1, 240, 1, 1]               0
+Conv2dStaticSamePadding-118             [-1, 10, 1, 1]           2,410
+        Identity-119             [-1, 10, 1, 1]               0
+Conv2dStaticSamePadding-120            [-1, 240, 1, 1]           2,640
+        Identity-121          [-1, 240, 17, 16]               0
+Conv2dStaticSamePadding-122           [-1, 80, 17, 16]          19,200
+     BatchNorm2d-123           [-1, 80, 17, 16]             160
+     MBConvBlock-124           [-1, 80, 17, 16]               0
+        Identity-125           [-1, 80, 17, 16]               0
+Conv2dStaticSamePadding-126          [-1, 480, 17, 16]          38,400
+     BatchNorm2d-127          [-1, 480, 17, 16]             960
+       ZeroPad2d-128          [-1, 480, 19, 18]               0
+Conv2dStaticSamePadding-129          [-1, 480, 17, 16]           4,320
+     BatchNorm2d-130          [-1, 480, 17, 16]             960
+        Identity-131            [-1, 480, 1, 1]               0
+Conv2dStaticSamePadding-132             [-1, 20, 1, 1]           9,620
+        Identity-133             [-1, 20, 1, 1]               0
+Conv2dStaticSamePadding-134            [-1, 480, 1, 1]          10,080
+        Identity-135          [-1, 480, 17, 16]               0
+Conv2dStaticSamePadding-136           [-1, 80, 17, 16]          38,400
+     BatchNorm2d-137           [-1, 80, 17, 16]             160
+     MBConvBlock-138           [-1, 80, 17, 16]               0
+        Identity-139           [-1, 80, 17, 16]               0
+Conv2dStaticSamePadding-140          [-1, 480, 17, 16]          38,400
+     BatchNorm2d-141          [-1, 480, 17, 16]             960
+       ZeroPad2d-142          [-1, 480, 19, 18]               0
+Conv2dStaticSamePadding-143          [-1, 480, 17, 16]           4,320
+     BatchNorm2d-144          [-1, 480, 17, 16]             960
+        Identity-145            [-1, 480, 1, 1]               0
+Conv2dStaticSamePadding-146             [-1, 20, 1, 1]           9,620
+        Identity-147             [-1, 20, 1, 1]               0
+Conv2dStaticSamePadding-148            [-1, 480, 1, 1]          10,080
+        Identity-149          [-1, 480, 17, 16]               0
+Conv2dStaticSamePadding-150           [-1, 80, 17, 16]          38,400
+     BatchNorm2d-151           [-1, 80, 17, 16]             160
+     MBConvBlock-152           [-1, 80, 17, 16]               0
+        Identity-153           [-1, 80, 17, 16]               0
+Conv2dStaticSamePadding-154          [-1, 480, 17, 16]          38,400
+     BatchNorm2d-155          [-1, 480, 17, 16]             960
+       ZeroPad2d-156          [-1, 480, 19, 18]               0
+Conv2dStaticSamePadding-157          [-1, 480, 17, 16]           4,320
+     BatchNorm2d-158          [-1, 480, 17, 16]             960
+        Identity-159            [-1, 480, 1, 1]               0
+Conv2dStaticSamePadding-160             [-1, 20, 1, 1]           9,620
+        Identity-161             [-1, 20, 1, 1]               0
+Conv2dStaticSamePadding-162            [-1, 480, 1, 1]          10,080
+        Identity-163          [-1, 480, 17, 16]               0
+Conv2dStaticSamePadding-164           [-1, 80, 17, 16]          38,400
+     BatchNorm2d-165           [-1, 80, 17, 16]             160
+     MBConvBlock-166           [-1, 80, 17, 16]               0
+        Identity-167           [-1, 80, 17, 16]               0
+Conv2dStaticSamePadding-168          [-1, 480, 17, 16]          38,400
+     BatchNorm2d-169          [-1, 480, 17, 16]             960
+       ZeroPad2d-170          [-1, 480, 21, 20]               0
+Conv2dStaticSamePadding-171          [-1, 480, 17, 16]          12,000
+     BatchNorm2d-172          [-1, 480, 17, 16]             960
+        Identity-173            [-1, 480, 1, 1]               0
+Conv2dStaticSamePadding-174             [-1, 20, 1, 1]           9,620
+        Identity-175             [-1, 20, 1, 1]               0
+Conv2dStaticSamePadding-176            [-1, 480, 1, 1]          10,080
+        Identity-177          [-1, 480, 17, 16]               0
+Conv2dStaticSamePadding-178          [-1, 112, 17, 16]          53,760
+     BatchNorm2d-179          [-1, 112, 17, 16]             224
+     MBConvBlock-180          [-1, 112, 17, 16]               0
+        Identity-181          [-1, 112, 17, 16]               0
+Conv2dStaticSamePadding-182          [-1, 672, 17, 16]          75,264
+     BatchNorm2d-183          [-1, 672, 17, 16]           1,344
+       ZeroPad2d-184          [-1, 672, 21, 20]               0
+Conv2dStaticSamePadding-185          [-1, 672, 17, 16]          16,800
+     BatchNorm2d-186          [-1, 672, 17, 16]           1,344
+        Identity-187            [-1, 672, 1, 1]               0
+Conv2dStaticSamePadding-188             [-1, 28, 1, 1]          18,844
+        Identity-189             [-1, 28, 1, 1]               0
+Conv2dStaticSamePadding-190            [-1, 672, 1, 1]          19,488
+        Identity-191          [-1, 672, 17, 16]               0
+Conv2dStaticSamePadding-192          [-1, 112, 17, 16]          75,264
+     BatchNorm2d-193          [-1, 112, 17, 16]             224
+     MBConvBlock-194          [-1, 112, 17, 16]               0
+        Identity-195          [-1, 112, 17, 16]               0
+Conv2dStaticSamePadding-196          [-1, 672, 17, 16]          75,264
+     BatchNorm2d-197          [-1, 672, 17, 16]           1,344
+       ZeroPad2d-198          [-1, 672, 21, 20]               0
+Conv2dStaticSamePadding-199          [-1, 672, 17, 16]          16,800
+     BatchNorm2d-200          [-1, 672, 17, 16]           1,344
+        Identity-201            [-1, 672, 1, 1]               0
+Conv2dStaticSamePadding-202             [-1, 28, 1, 1]          18,844
+        Identity-203             [-1, 28, 1, 1]               0
+Conv2dStaticSamePadding-204            [-1, 672, 1, 1]          19,488
+        Identity-205          [-1, 672, 17, 16]               0
+Conv2dStaticSamePadding-206          [-1, 112, 17, 16]          75,264
+     BatchNorm2d-207          [-1, 112, 17, 16]             224
+     MBConvBlock-208          [-1, 112, 17, 16]               0
+        Identity-209          [-1, 112, 17, 16]               0
+Conv2dStaticSamePadding-210          [-1, 672, 17, 16]          75,264
+     BatchNorm2d-211          [-1, 672, 17, 16]           1,344
+       ZeroPad2d-212          [-1, 672, 21, 20]               0
+Conv2dStaticSamePadding-213          [-1, 672, 17, 16]          16,800
+     BatchNorm2d-214          [-1, 672, 17, 16]           1,344
+        Identity-215            [-1, 672, 1, 1]               0
+Conv2dStaticSamePadding-216             [-1, 28, 1, 1]          18,844
+        Identity-217             [-1, 28, 1, 1]               0
+Conv2dStaticSamePadding-218            [-1, 672, 1, 1]          19,488
+        Identity-219          [-1, 672, 17, 16]               0
+Conv2dStaticSamePadding-220          [-1, 112, 17, 16]          75,264
+     BatchNorm2d-221          [-1, 112, 17, 16]             224
+     MBConvBlock-222          [-1, 112, 17, 16]               0
+        Identity-223          [-1, 112, 17, 16]               0
+Conv2dStaticSamePadding-224          [-1, 672, 17, 16]          75,264
+     BatchNorm2d-225          [-1, 672, 17, 16]           1,344
+       ZeroPad2d-226          [-1, 672, 20, 19]               0
+Conv2dStaticSamePadding-227            [-1, 672, 8, 8]          16,800
+     BatchNorm2d-228            [-1, 672, 8, 8]           1,344
+        Identity-229            [-1, 672, 1, 1]               0
+Conv2dStaticSamePadding-230             [-1, 28, 1, 1]          18,844
+        Identity-231             [-1, 28, 1, 1]               0
+Conv2dStaticSamePadding-232            [-1, 672, 1, 1]          19,488
+        Identity-233            [-1, 672, 8, 8]               0
+Conv2dStaticSamePadding-234            [-1, 192, 8, 8]         129,024
+     BatchNorm2d-235            [-1, 192, 8, 8]             384
+     MBConvBlock-236            [-1, 192, 8, 8]               0
+        Identity-237            [-1, 192, 8, 8]               0
+Conv2dStaticSamePadding-238           [-1, 1152, 8, 8]         221,184
+     BatchNorm2d-239           [-1, 1152, 8, 8]           2,304
+       ZeroPad2d-240         [-1, 1152, 12, 12]               0
+Conv2dStaticSamePadding-241           [-1, 1152, 8, 8]          28,800
+     BatchNorm2d-242           [-1, 1152, 8, 8]           2,304
+        Identity-243           [-1, 1152, 1, 1]               0
+Conv2dStaticSamePadding-244             [-1, 48, 1, 1]          55,344
+        Identity-245             [-1, 48, 1, 1]               0
+Conv2dStaticSamePadding-246           [-1, 1152, 1, 1]          56,448
+        Identity-247           [-1, 1152, 8, 8]               0
+Conv2dStaticSamePadding-248            [-1, 192, 8, 8]         221,184
+     BatchNorm2d-249            [-1, 192, 8, 8]             384
+     MBConvBlock-250            [-1, 192, 8, 8]               0
+        Identity-251            [-1, 192, 8, 8]               0
+Conv2dStaticSamePadding-252           [-1, 1152, 8, 8]         221,184
+     BatchNorm2d-253           [-1, 1152, 8, 8]           2,304
+       ZeroPad2d-254         [-1, 1152, 12, 12]               0
+Conv2dStaticSamePadding-255           [-1, 1152, 8, 8]          28,800
+     BatchNorm2d-256           [-1, 1152, 8, 8]           2,304
+        Identity-257           [-1, 1152, 1, 1]               0
+Conv2dStaticSamePadding-258             [-1, 48, 1, 1]          55,344
+        Identity-259             [-1, 48, 1, 1]               0
+Conv2dStaticSamePadding-260           [-1, 1152, 1, 1]          56,448
+        Identity-261           [-1, 1152, 8, 8]               0
+Conv2dStaticSamePadding-262            [-1, 192, 8, 8]         221,184
+     BatchNorm2d-263            [-1, 192, 8, 8]             384
+     MBConvBlock-264            [-1, 192, 8, 8]               0
+        Identity-265            [-1, 192, 8, 8]               0
+Conv2dStaticSamePadding-266           [-1, 1152, 8, 8]         221,184
+     BatchNorm2d-267           [-1, 1152, 8, 8]           2,304
+       ZeroPad2d-268         [-1, 1152, 12, 12]               0
+Conv2dStaticSamePadding-269           [-1, 1152, 8, 8]          28,800
+     BatchNorm2d-270           [-1, 1152, 8, 8]           2,304
+        Identity-271           [-1, 1152, 1, 1]               0
+Conv2dStaticSamePadding-272             [-1, 48, 1, 1]          55,344
+        Identity-273             [-1, 48, 1, 1]               0
+Conv2dStaticSamePadding-274           [-1, 1152, 1, 1]          56,448
+        Identity-275           [-1, 1152, 8, 8]               0
+Conv2dStaticSamePadding-276            [-1, 192, 8, 8]         221,184
+     BatchNorm2d-277            [-1, 192, 8, 8]             384
+     MBConvBlock-278            [-1, 192, 8, 8]               0
+        Identity-279            [-1, 192, 8, 8]               0
+Conv2dStaticSamePadding-280           [-1, 1152, 8, 8]         221,184
+     BatchNorm2d-281           [-1, 1152, 8, 8]           2,304
+       ZeroPad2d-282         [-1, 1152, 12, 12]               0
+Conv2dStaticSamePadding-283           [-1, 1152, 8, 8]          28,800
+     BatchNorm2d-284           [-1, 1152, 8, 8]           2,304
+        Identity-285           [-1, 1152, 1, 1]               0
+Conv2dStaticSamePadding-286             [-1, 48, 1, 1]          55,344
+        Identity-287             [-1, 48, 1, 1]               0
+Conv2dStaticSamePadding-288           [-1, 1152, 1, 1]          56,448
+        Identity-289           [-1, 1152, 8, 8]               0
+Conv2dStaticSamePadding-290            [-1, 192, 8, 8]         221,184
+     BatchNorm2d-291            [-1, 192, 8, 8]             384
+     MBConvBlock-292            [-1, 192, 8, 8]               0
+        Identity-293            [-1, 192, 8, 8]               0
+Conv2dStaticSamePadding-294           [-1, 1152, 8, 8]         221,184
+     BatchNorm2d-295           [-1, 1152, 8, 8]           2,304
+       ZeroPad2d-296         [-1, 1152, 10, 10]               0
+Conv2dStaticSamePadding-297           [-1, 1152, 8, 8]          10,368
+     BatchNorm2d-298           [-1, 1152, 8, 8]           2,304
+        Identity-299           [-1, 1152, 1, 1]               0
+Conv2dStaticSamePadding-300             [-1, 48, 1, 1]          55,344
+        Identity-301             [-1, 48, 1, 1]               0
+Conv2dStaticSamePadding-302           [-1, 1152, 1, 1]          56,448
+        Identity-303           [-1, 1152, 8, 8]               0
+Conv2dStaticSamePadding-304            [-1, 320, 8, 8]         368,640
+     BatchNorm2d-305            [-1, 320, 8, 8]             640
+     MBConvBlock-306            [-1, 320, 8, 8]               0
+        Identity-307            [-1, 320, 8, 8]               0
+Conv2dStaticSamePadding-308           [-1, 1920, 8, 8]         614,400
+     BatchNorm2d-309           [-1, 1920, 8, 8]           3,840
+       ZeroPad2d-310         [-1, 1920, 10, 10]               0
+Conv2dStaticSamePadding-311           [-1, 1920, 8, 8]          17,280
+     BatchNorm2d-312           [-1, 1920, 8, 8]           3,840
+        Identity-313           [-1, 1920, 1, 1]               0
+Conv2dStaticSamePadding-314             [-1, 80, 1, 1]         153,680
+        Identity-315             [-1, 80, 1, 1]               0
+Conv2dStaticSamePadding-316           [-1, 1920, 1, 1]         155,520
+        Identity-317           [-1, 1920, 8, 8]               0
+Conv2dStaticSamePadding-318            [-1, 320, 8, 8]         614,400
+     BatchNorm2d-319            [-1, 320, 8, 8]             640
+     MBConvBlock-320            [-1, 320, 8, 8]               0
+        Identity-321            [-1, 320, 8, 8]               0
+Conv2dStaticSamePadding-322           [-1, 1280, 8, 8]         409,600
+     BatchNorm2d-323           [-1, 1280, 8, 8]           2,560
+        Identity-324                 [-1, 1280]               0
+    EfficientNet-325                 [-1, 1280]               0
+          Linear-326                    [-1, 1]           1,281
+================================================================
+Total params: 6,514,546
+Trainable params: 6,514,546
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.80
+Forward/backward pass size (MB): 323.71
+Params size (MB): 24.85
+Estimated Total Size (MB): 349.37
+----------------------------------------------------------------
