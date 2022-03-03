@@ -1,6 +1,6 @@
 # SETI - Searching for Extraterestial Intelligence
 
-A collection of notebooks that try to detect artificially inserted alien signals in large data set.
+A collection of notebooks that try to detect artificially inserted alien signals in a large data set.
 The challenge was taken from: https://www.kaggle.com/c/seti-breakthrough-listen. The dataset is also available on the kaggle website.
 
 ## Table of contents
